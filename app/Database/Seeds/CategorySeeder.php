@@ -18,6 +18,8 @@ class CategorySeeder extends Seeder
             ['name' => 'Psikologi'],
             ['name' => 'Fiksi'],
             ['name' => 'Non-Fiksi'],
+            ['name' => 'detektif'],
+            ['name' => 'Fantasi'],
         ];
 
         $this->db->table('categories')->insertBatch($data);
